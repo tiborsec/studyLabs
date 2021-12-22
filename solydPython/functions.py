@@ -5,4 +5,4 @@ def boanoite(nome):
 namoradas = ['Luiza', 'Lorena', 'Amanda','Carla']
 
 for namorada in namoradas:
-    boanoite(namorada)
+    boanoite(namorada) 
