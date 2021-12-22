@@ -1,12 +1,10 @@
-nome = ''
-sobrenome = 'Assenheimer'
-idade = ''
+login = 'alex'
+senha = '1234'
 
+entra_login = raw_input('Digite seu login: ')
+entra_senha = raw_input('Digite sua senha: ')
 
-print 'Qual e o seu nome?'
-nome = raw_input()
-
-print 'Qual e a sua idade?'
-idade = raw_input()
-
-print 'Nome: ' + nome + ' ' + sobrenome + ' e tenho ' + str(idade) + ' anos.'
+if entra_login == login and entra_senha == senha:
+    print 'Sistema conectado'
+else:
+    print 'Login incorreto'
